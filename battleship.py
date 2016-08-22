@@ -41,7 +41,7 @@ for turn in range(4):
         if (guess_row < 0 or guess_row > 4) or (guess_col < 0 or guess_col > 4):
             print "Oops, that's not even in the ocean."
         elif (board[guess_row][guess_col] == "X"):
-            print "You guessed that one already."
+            print "You guessed that one already. Try again."
         else:
             print "You missed my battleship!"
             board[guess_row][guess_col] = "X"
