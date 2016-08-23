@@ -11,7 +11,7 @@ def print_board(board):
     for row in board:
         print " ".join(row)
 
-print "Let's play Battleship!"
+print "Welcome to Python Battleship!"
 print_board(board)
 
 #Create the hidden battleship
